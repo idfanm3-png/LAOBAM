@@ -1,0 +1,48 @@
+<!-- public/vip.html -->
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>황제 투어</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="/index.html" class="brand">BAM TOUR</a>
+    <nav class="nav">
+      <a href="/index.html">Home</a>
+      <a href="/golf.html">골프 투어</a>
+      <a href="/vip.html">황제 투어</a>
+    </nav>
+  </div>
+</header>
+
+<section class="section container">
+  <h2>황제 투어</h2>
+  <div id="list" class="catalog"></div>
+</section>
+
+<footer style="border-top:1px solid var(--line);margin-top:28px">
+  <div class="container" style="padding:18px 0;color:var(--mut)">© 2025 BAM Tour · All rights reserved.</div>
+</footer>
+
+<div class="float-contact" aria-label="실시간 문의">
+  <button class="fc-toggle" id="fcToggle" aria-expanded="false">문의</button>
+  <div class="fc-panel" id="fcPanel">
+    <a class="fc-btn kakaotalk" href="https://pf.kakao.com/_YOUR_ID/chat" target="_blank" rel="noopener">카카오톡</a>
+    <a class="fc-btn whatsapp"  href="https://wa.me/821012345678" target="_blank" rel="noopener">WhatsApp</a>
+    <a class="fc-btn telegram"  href="https://t.me/YOUR_USERNAME" target="_blank" rel="noopener">Telegram</a>
+  </div>
+</div>
+
+<script src="/app.js"></script>
+<script>
+  (async()=>{
+    const items=await fetchProducts();
+    renderList(document.getElementById('list'), items.filter(x=>x.category==='vip'));
+  })();
+</script>
+</body>
+</html>

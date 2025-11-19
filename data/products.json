@@ -1,0 +1,69 @@
+{
+  "products": [
+    {
+      "category": "vip",
+      "id": "vip-emperor-1d",
+      "title": "황제투어 1일 프리미엄",
+      "priceUSD": 520,
+      "summary": "전용 픽업 · 프라이빗 가이드",
+      "thumbnail": "/images/vip1.jpg",
+      "thumbnailWebp": "/images/vip1.webp",
+      "hit": 1203,
+      "badge": "best",
+      "tags": ["vip", "private", "transfer"],
+      "rating": 4.9
+    },
+    {
+      "category": "vip",
+      "id": "vip-emperor-2d",
+      "title": "황제투어 2일 올인클루시브",
+      "priceUSD": 980,
+      "summary": "럭셔리 호텔 · 전용 차량",
+      "thumbnail": "/images/vip2.jpg",
+      "thumbnailWebp": "/images/vip2.webp",
+      "hit": 663,
+      "badge": "event",
+      "tags": ["vip", "hotel", "luxury"],
+      "rating": 4.8
+    },
+    {
+      "category": "golf",
+      "id": "golf-lp-dragon",
+      "title": "라오 프라방 드래곤 골프",
+      "priceUSD": 220,
+      "summary": "루앙프라방 대표 18H · 카트 포함",
+      "thumbnail": "/images/golf1.jpg",
+      "thumbnailWebp": "/images/golf1.webp",
+      "hit": 987,
+      "badge": "best",
+      "tags": ["golf", "18h", "luangprabang"],
+      "rating": 4.7
+    },
+    {
+      "category": "golf",
+      "id": "golf-vte-riverside",
+      "title": "비엔티안 리버사이드 CC",
+      "priceUSD": 180,
+      "summary": "도심 접근성 우수 · 18H",
+      "thumbnail": "/images/golf2.jpg",
+      "thumbnailWebp": "/images/golf2.webp",
+      "hit": 742,
+      "badge": "event",
+      "tags": ["golf", "vientiane", "18h"],
+      "rating": 4.5
+    },
+    {
+      "category": "golf",
+      "id": "golf-vv-mountain",
+      "title": "방비엥 마운틴 뷰 골프",
+      "priceUSD": 160,
+      "summary": "카르스트 절경 · 18H",
+      "thumbnail": "/images/golf3.jpg",
+      "thumbnailWebp": "/images/golf3.webp",
+      "hit": 534,
+      "badge": null,
+      "tags": ["golf", "vangvieng"],
+      "rating": 4.4
+    }
+  ]
+}
